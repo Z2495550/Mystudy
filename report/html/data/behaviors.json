@@ -1,0 +1,89 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "epic对大Story得一个描述性的标签",
+    "children" : [ {
+      "name" : "测试模块1",
+      "children" : [ {
+        "name" : "用户故事：1",
+        "children" : [ {
+          "name" : "用例的标题",
+          "uid" : "c94ebe4728bf657f",
+          "parentUid" : "c21fc6de81b8bcf7b0b889fa592275c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593803486257,
+            "stop" : 1593803486258,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c21fc6de81b8bcf7b0b889fa592275c0"
+      }, {
+        "name" : "用户故事：2",
+        "children" : [ {
+          "name" : "test_case_02",
+          "uid" : "f447ef7bc5c99d9c",
+          "parentUid" : "7b7bc3ca2eddb34bcb9fbc7bfb1d2d93",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593803486261,
+            "stop" : 1593803486261,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "7b7bc3ca2eddb34bcb9fbc7bfb1d2d93"
+      } ],
+      "uid" : "5ca48df8096f8427c29f64f0713f1235"
+    } ],
+    "uid" : "28796c1084075ccb90de8f1f772f3120"
+  }, {
+    "name" : "epic对大Story的一个描述性标签",
+    "children" : [ {
+      "name" : "测试模块2",
+      "children" : [ {
+        "name" : "用户故事：3",
+        "children" : [ {
+          "name" : "test_case_3",
+          "uid" : "f5b8b4c4c7d0e457",
+          "parentUid" : "f798d5961e450ffb24d765cbfdf8eb5e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593803486263,
+            "stop" : 1593803486263,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f798d5961e450ffb24d765cbfdf8eb5e"
+      }, {
+        "name" : "用户故事：4",
+        "children" : [ {
+          "name" : "test_case_4",
+          "uid" : "8423a573a94754df",
+          "parentUid" : "871e915d2a4b591310e8eab6835be5c0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1593803486265,
+            "stop" : 1593803486266,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "871e915d2a4b591310e8eab6835be5c0"
+      } ],
+      "uid" : "81d103f627220a064dd3ef1091c8637d"
+    } ],
+    "uid" : "4146ca5fc46ad2ea0d9d63e9c1c442ac"
+  } ]
+}

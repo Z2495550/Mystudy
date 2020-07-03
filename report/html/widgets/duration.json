@@ -1,0 +1,41 @@
+[ {
+  "uid" : "f447ef7bc5c99d9c",
+  "name" : "test_case_02",
+  "time" : {
+    "start" : 1593803486261,
+    "stop" : 1593803486261,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c94ebe4728bf657f",
+  "name" : "用例的标题",
+  "time" : {
+    "start" : 1593803486257,
+    "stop" : 1593803486258,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f5b8b4c4c7d0e457",
+  "name" : "test_case_3",
+  "time" : {
+    "start" : 1593803486263,
+    "stop" : 1593803486263,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8423a573a94754df",
+  "name" : "test_case_4",
+  "time" : {
+    "start" : 1593803486265,
+    "stop" : 1593803486266,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
