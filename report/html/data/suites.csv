@@ -1,8 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Jul 04 03:11:26 CST 2020","Sat Jul 04 03:11:26 CST 2020","0","","test_allure_02","TestAllure","","","test_case_02",""
-"passed","Sat Jul 04 03:11:26 CST 2020","Sat Jul 04 03:11:26 CST 2020","1","","test_allure_02","TestAllure","","","用例的标题","
-        1、打开网站
-        2、操作1，操作2，操作3
-        "
-"passed","Sat Jul 04 03:11:26 CST 2020","Sat Jul 04 03:11:26 CST 2020","0","","test_allure_02","TestDemo2","","","test_case_3",""
-"passed","Sat Jul 04 03:11:26 CST 2020","Sat Jul 04 03:11:26 CST 2020","1","","test_allure_02","TestDemo2","","","test_case_4",""
