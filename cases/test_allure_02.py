@@ -61,9 +61,9 @@ class TestDemo2():
         print("测试用例1")
         step_03()
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
     # 执行pytest单元测试，生成 Allure 报告需要的数据存在 /report/xml 目录
-    pytest.main(['-s','-q','test_allure_02.py','--alluredir','../report/xml'])
+    # pytest.main(['-s','-q','test_allure_02.py','--alluredir','../report/xml'])
     # 执行命令生成测试报告
-    os.system('allure generate ../report/xml -o ../report/html --clean')
+    # os.system('allure generate ../report/xml -o ../report/html --clean')
 

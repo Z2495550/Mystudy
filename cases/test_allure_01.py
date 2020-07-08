@@ -24,6 +24,8 @@ def test_case_02():
     assert 0 == 0
 
 
-if __name__ == '__main__':
-    pytest.main(['-s', '-q', '--alluredir', '../report/xml'])
-    os.system('allure generate ../report/xml -o ../report/html --clean')
+# if __name__ == '__main__':
+#     args = ['-s','-q','test_allure_01.py']
+#     pytest.main(args)
+    # pytest.main(['-s', '-q', '--alluredir', '../report/xml'])
+    # os.system('allure generate ../report/xml -o ../report/html --clean')

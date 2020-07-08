@@ -34,5 +34,5 @@ class TestLogin:
         print('测试用例三')
         assert 1 == 2
 
-if __name__ == '__main__':
-    pytest.main(['-s','-q','--alluredir','../report/xml'])
+# if __name__ == '__main__':
+#     pytest.main(['-s','-q','--alluredir','../report/xml'])
