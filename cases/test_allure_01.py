@@ -12,7 +12,7 @@ def test_case_01():
     """
     用例描述：这是用例描述，Test case 01，第一条测试用例
     """
-    assert 0
+    assert 1 == 1
 
 @allure.feature('test_module_01')
 @allure.story('test_story_02')

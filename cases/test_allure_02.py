@@ -5,21 +5,21 @@ import os
 
 @pytest.fixture(scope='session')
 def login_fixture():
-    print('前置条件登录')
+    print('fixture')
 
 @allure.step('步骤')
 def step_01():
-    print('操作步骤----1')
+    print('----1')
 
 
 @allure.step('步骤')
 def step_02():
-    print('操作步骤----2')
+    print('----2')
 
 
 @allure.step('步骤')
 def step_03():
-    print('操作步骤----3')
+    print('----3')
 
 @allure.epic('epic对大Story得一个描述性的标签')
 @allure.feature('测试模块1')
@@ -41,7 +41,7 @@ class TestAllure():
 
     @allure.story('用户故事：2')
     def test_case_02(self,login_fixture):
-        print('测试用例1')
+        # print('测试用例1')
         step_01()
         step_03()
 
@@ -52,13 +52,13 @@ class TestDemo2():
 
     @allure.story("用户故事：3")
     def test_case_3(self, login_fixture):
-        print("测试用例1")
+        # print("测试用例1")
         step_01()
 
 
     @allure.story("用户故事：4")
     def test_case_4(self, login_fixture):
-        print("测试用例1")
+        # print("测试用例1")
         step_03()
 
 # if __name__ == '__main__':
