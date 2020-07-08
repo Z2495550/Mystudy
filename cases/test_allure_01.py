@@ -1,6 +1,7 @@
 # coding=utf-8
 import allure
 import pytest
+import os
 
 
 @allure.feature('test_module_01')
@@ -25,3 +26,4 @@ def test_case_02():
 
 if __name__ == '__main__':
     pytest.main(['-s', '-q', '--alluredir', '../report/xml'])
+    os.system('allure generate ../report/xml -o ../report/html --clean')
